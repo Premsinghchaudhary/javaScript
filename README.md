@@ -1,6 +1,3 @@
 # javaScript
 Inside the  Calculation :
-Addition
-Subtraction
-Multiplication
-Division
+Addition,Subtraction,Multiplication and Division
