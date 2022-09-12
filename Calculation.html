@@ -1,0 +1,53 @@
+<Html>
+<head>
+
+<script>
+function sum()
+			{
+			 var n1,n2,s;
+			 n1=Number(document.getElementById("num1").value);
+			 n2=Number(document.getElementById("num2").value);
+			 s=n1+n2;
+document.getElementById ("Result").innerHTML=s;
+}
+
+function sub()
+			{
+			 var n1,n2,s;
+			 n1=Number(document.getElementById("num1").value);
+			 n2=Number(document.getElementById("num2").value);
+			 s=n1-n2;
+document.getElementById ("Result").innerHTML=s;
+}
+function mul()
+			{
+			 var n1,n2,s;
+			 n1=Number(document.getElementById("num1").value);
+			 n2=Number(document.getElementById("num2").value);
+			 s=n1*n2;
+document.getElementById ("Result").innerHTML=s;
+}
+function div()
+			{
+			 var n1,n2,s;
+			 n1=Number(document.getElementById("num1").value);
+			 n2=Number(document.getElementById("num2").value);
+			 s=n1/n2;
+document.getElementById ("Result").innerHTML=s;
+}
+</script>
+</head>
+<body>
+<form>
+Enter your first number:<input type="text" id="num1" />
+Enter your second number:<input type="text" id="num2" />
+<button type="button" onclick="sum()" >Addition</button><br>
+<button type="button" onclick="sub()" >Subtraction</button><br>
+<button type="button" onclick="mul()" >Multiplication</button><br>
+<button type="button" onclick="div()" >Division</button><br>
+The Result is :
+<span id="Result"></span>
+</form>
+</body>
+
+</Html>
