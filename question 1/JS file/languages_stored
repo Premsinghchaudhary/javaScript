@@ -1,0 +1,18 @@
+function display(){
+    var arrayValues = document.getElementById('arrvalues').value;
+	var s_value = arrayValues.split(',');
+    var res = "Languages are :";
+	for (var i=0;i<s_value.length;i++)
+	{
+		res += s_value[i];
+		 if ( i < s_value.length - 2) 
+		 {
+		 	res += ', ';
+         } else if (i !== s_value.length - 1) 
+         {
+                    res += ' and ';
+          }
+
+	}  
+	 document.getElementById("result").innerHTML = res;
+}
