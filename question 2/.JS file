@@ -6,12 +6,15 @@ function check()
 			var email_id=window.prompt("Enter your Email-id:");
 			var phone_no=window.prompt("Enter your phone Number:");
 			var marks=window.prompt("Enter your marks:");
+
+			var ob={n:name,h:hobby,e:email_id,p:phone_no,m:marks}
+
 			document.write('<h1> User Details </h1>');
-            document.write("Name:"+name);
-            document.write("<br>"+"Hobby:"+hobby);
-			document.write("<br>"+"Email-id:"+email_id);
-			document.write("<br>"+"Phone no:"+phone_no);
-			document.write("<br>"+"Marks:"+marks);
+            document.write("Name:"+ob.n);
+            document.write("<br>"+"Hobby:"+ob.h);
+			document.write("<br>"+"Email-id:"+ob.e);
+			document.write("<br>"+"Phone no:"+ob.p);
+			document.write("<br>"+"Marks:"+ob.m);
 
 			// document.getElementById("demo").innerHTML = "Name :"+name+"Hobby :"+hobby+" Email id :"+email_id+"Phone number :"+phone_no+"Marks :"+marks;
 		}
