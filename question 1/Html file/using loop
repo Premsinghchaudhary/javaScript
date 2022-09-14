@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title> For in loop </title>
+	<script src="for_in.js"></script>
+</head>
+<body>
+    
+	<form>
+	Enter the languages:
+	<input type="text" id="arrvalues">
+	<button type="button" onclick="display()">Output
+	</button>
+</form>
+	<p id="result"></p>
+
+</body>
+</html>
